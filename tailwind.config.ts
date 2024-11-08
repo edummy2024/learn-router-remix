@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 export default {
+  mode: "jit", 
   content: ["./app/**/{**,.client,.server}/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
@@ -19,4 +20,5 @@ export default {
     },
   },
   plugins: [],
+  
 } satisfies Config;
